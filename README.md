@@ -11,7 +11,7 @@ Summary: The LTTng User Space Tracing (LTTng-UST) library allows any C/C++ appli
 
 Development: https://github.com/lttng/lttng-ust
 
-Documentation: https://lttng.org/docs/v2.10/
+Documentation: https://lttng.org/docs/v2.12/
 
 Current build status
 ====================
