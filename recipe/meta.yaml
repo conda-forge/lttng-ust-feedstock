@@ -17,6 +17,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ cdt('numactl') }}
     - make
+    - pkg-config
     - libuuid
     - popt
     - libxml2
