@@ -1,3 +1,4 @@
+{% set name = "lttng-ust" %}
 {% set version = "2.13.4" %}
 
 package:
@@ -11,6 +12,8 @@ source:
 build:
   skip: true  # [win or osx]
   number: 0
+  run_exports:
+    - '{{ pin_subpackage(name, max_pin="x.x.x") }}'
 
 requirements:
   build:
