@@ -14,10 +14,5 @@ libuuid:
 - '2'
 libxml2:
 - '2.9'
-pin_run_as_build:
-  libuuid:
-    max_pin: x
-  libxml2:
-    max_pin: x.x
 target_platform:
 - linux-64
