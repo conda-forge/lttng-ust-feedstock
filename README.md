@@ -1,17 +1,17 @@
-About lttng-ust
-===============
+About lttng-ust-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lttng-ust-feedstock/blob/main/LICENSE.txt)
 
 Home: https://lttng.org/
 
 Package license: LGPL-2.1-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lttng-ust-feedstock/blob/master/LICENSE.txt)
-
 Summary: The LTTng User Space Tracing (LTTng-UST) library allows any C/C++ application to be instrumented for and traced by LTTng.
 
 Development: https://github.com/lttng/lttng-ust
 
-Documentation: https://lttng.org/docs/v2.13/
+Documentation: https://lttng.org/docs/v2.13.6/
 
 Current build status
 ====================
@@ -24,8 +24,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10956&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/lttng-ust-feedstock?branchName=master">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10956&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/lttng-ust-feedstock?branchName=main">
           </a>
         </summary>
         <table>
@@ -33,8 +33,8 @@ Current build status
           <tbody><tr>
               <td>linux_64</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10956&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/lttng-ust-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10956&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/lttng-ust-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr>
