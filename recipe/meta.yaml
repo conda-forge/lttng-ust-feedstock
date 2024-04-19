@@ -1,5 +1,5 @@
 {% set name = "lttng-ust" %}
-{% set version = "2.13.4" %}
+{% set version = "2.13.8" %}
 
 package:
   name: lttng-ust
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: http://lttng.org/files/lttng-ust/lttng-ust-{{ version }}.tar.bz2
-    sha256: 698f82ec5dc56e981c0bb08c46ebabaf31c60e877c2e365b9fd6d3a9fff8b398
+    sha256: d4ef98dab9a37ad4f524ccafdfd50af4f266039b528dd5afabce78e49024d937
 
 build:
   skip: true  # [win or osx]
@@ -18,6 +18,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ cdt('numactl') }}
     - make
     - pkg-config
