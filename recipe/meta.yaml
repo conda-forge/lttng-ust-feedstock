@@ -10,7 +10,7 @@ source:
     sha256: d4ef98dab9a37ad4f524ccafdfd50af4f266039b528dd5afabce78e49024d937
 
 build:
-  skip: true  # [win or osx]
+  skip: true  # [not linux]
   number: 0
   run_exports:
     - '{{ pin_subpackage(name, max_pin="x.x") }}'
@@ -22,9 +22,6 @@ requirements:
     - {{ cdt('numactl') }}
     - make
     - pkg-config
-    - libuuid
-    - popt
-    - libxml2
   host:
     - liburcu
   run:
