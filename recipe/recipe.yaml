@@ -21,6 +21,7 @@ requirements:
     - ${{ cdt('numactl') }}
     - make
     - pkg-config
+    - python
   host:
     - liburcu
   run:
