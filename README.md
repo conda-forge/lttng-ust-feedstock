@@ -11,20 +11,13 @@ Summary: The LTTng User Space Tracing (LTTng-UST) library allows any C/C++ appli
 
 Development: https://github.com/lttng/lttng-ust
 
-Documentation: https://lttng.org/docs/v2.13.8/
+Documentation: https://lttng.org/docs/v2.13.9/
 
 Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/lttng-ust-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/lttng-ust-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
