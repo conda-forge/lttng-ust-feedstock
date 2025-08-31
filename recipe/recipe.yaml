@@ -12,7 +12,7 @@ source:
 
 build:
   skip: not linux
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -28,7 +28,7 @@ requirements:
   run:
     - liburcu
   ignore_run_exports:
-    from_package: 
+    from_package:
       - python
   run_exports:
     - ${{ pin_subpackage(name, upper_bound="x.x") }}
