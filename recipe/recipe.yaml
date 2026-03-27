@@ -12,13 +12,12 @@ source:
 
 build:
   skip: not linux
-  number: 0
+  number: 1
 
 requirements:
   build:
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
-    - ${{ cdt('numactl') }}
     - make
     - autoconf
     - pkg-config
